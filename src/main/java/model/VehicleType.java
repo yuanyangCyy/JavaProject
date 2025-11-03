@@ -1,4 +1,4 @@
-package moudel;
+package model;
 
 public class VehicleType {
     private String type;

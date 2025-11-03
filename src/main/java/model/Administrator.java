@@ -1,4 +1,4 @@
-package moudel;
+package model;
 
 public class Administrator {
     private String username;
@@ -25,4 +25,3 @@ public class Administrator {
         this.password = password;
     }
 }
-
