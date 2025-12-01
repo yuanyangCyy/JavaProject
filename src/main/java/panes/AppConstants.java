@@ -25,9 +25,9 @@ public class AppConstants {
     public static final String BTN_BACK = "Back";
 
     // Colors
-    public static final Color PRIMARY_COLOR = Color.rgb(7, 5, 103);
-    public static final Color SECONDARY_COLOR = Color.rgb(83, 110, 243);
-    public static final Color TERTIARY_COLOR = Color.rgb(240, 230, 243);
+    public static final Color PRIMARY_COLOR = Color.rgb(128, 0, 0);
+    public static final Color SECONDARY_COLOR = Color.rgb(165, 42, 42);
+    public static final Color TERTIARY_COLOR = Color.rgb(255, 240, 245);
     public static final Color WHITE_COLOR = Color.WHITE;
     public static final Color BLACK_COLOR = Color.BLACK;
     public static final Color GRAY_COLOR = Color.GRAY;

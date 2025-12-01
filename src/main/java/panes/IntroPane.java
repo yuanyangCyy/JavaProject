@@ -98,20 +98,20 @@ public class IntroPane extends BorderPane {
     }
 
     private void applyAnimations(Label title, Label subtitle, Label description, Button button) {
-        FadeTransition titleFade = new FadeTransition(Duration.seconds(1.5), title);
+        FadeTransition titleFade = new FadeTransition(Duration.seconds(0.4), title);
         titleFade.setFromValue(0.0);
         titleFade.setToValue(1.0);
 
-        FadeTransition subtitleFade = new FadeTransition(Duration.seconds(2), subtitle);
+        FadeTransition subtitleFade = new FadeTransition(Duration.seconds(0.4), subtitle);
         subtitleFade.setFromValue(0.0);
         subtitleFade.setToValue(1.0);
 
 
-        FadeTransition descFade = new FadeTransition(Duration.seconds(2.5), description);
+        FadeTransition descFade = new FadeTransition(Duration.seconds(0.4), description);
         descFade.setFromValue(0.0);
         descFade.setToValue(1.0);
 
-        FadeTransition buttonFade = new FadeTransition(Duration.seconds(3), button);
+        FadeTransition buttonFade = new FadeTransition(Duration.seconds(0.6), button);
         buttonFade.setFromValue(0.0);
         buttonFade.setToValue(1.0);
 

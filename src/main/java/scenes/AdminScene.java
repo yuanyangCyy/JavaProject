@@ -1,7 +1,6 @@
 package scenes;
 
 import panes.AppConstants;
-import panes.AdminPane;
 import javafx.scene.Scene;
 
 public class AdminScene extends Scene {
