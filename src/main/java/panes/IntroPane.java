@@ -106,6 +106,7 @@ public class IntroPane extends BorderPane {
         subtitleFade.setFromValue(0.0);
         subtitleFade.setToValue(1.0);
 
+
         FadeTransition descFade = new FadeTransition(Duration.seconds(2.5), description);
         descFade.setFromValue(0.0);
         descFade.setToValue(1.0);
