@@ -1,7 +1,6 @@
 package scenes;
 
 import panes.AppConstants;
-import panes.ManageBookingPane;
 import javafx.scene.Scene;
 
 public class ManageBookingScene extends Scene {
