@@ -1,5 +1,6 @@
 package scenes;
 
+import panes.AdminPane;
 import panes.AppConstants;
 import javafx.scene.Scene;
 
