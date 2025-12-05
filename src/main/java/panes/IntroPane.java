@@ -1,5 +1,6 @@
 package panes;
 
+import scenes.ConfigScene;
 import scenes.MenuScene;
 import javafx.animation.*;
 import javafx.geometry.Insets;
@@ -50,7 +51,7 @@ public class IntroPane extends BorderPane {
 
         continueBtn.setOnMouseClicked(event -> {
             Stage stage = (Stage) getScene().getWindow();
-            stage.setScene(new MenuScene());
+            stage.setScene(new ConfigScene());
         });
 
         VBox sidePanel = createSidePanel();
